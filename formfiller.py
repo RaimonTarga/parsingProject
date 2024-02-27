@@ -12,6 +12,7 @@ ROOT_DIR = os.path.dirname(os.path.abspath(__file__)) # Project Root
 INPUT_FILE_NAME = 'Listados.json'
 INPUT_PATH = os.path.join(ROOT_DIR, INPUT_FILE_NAME)
 URL = 'https://angular.specialisternespain.com/gestion-datos/#/tramitacion-pedidos'
+#pon tu password de usuario aqui
 USERNAME = ''
 OPTIONS = webdriver.ChromeOptions() 
 OPTIONS.add_experimental_option('excludeSwitches', ['enable-logging']) 
